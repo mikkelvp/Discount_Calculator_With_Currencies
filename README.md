@@ -11,3 +11,14 @@
 <p>Saves exchange rate to file system, and reads if file exist.</p>
 <p>Only gets rate from YQL if defined time has passed.</p>
 <p>Uses USD if no other currency is picked.</p>
+
+<h4>Screenshots</h4>
+![Alt text](/../screenshots/screenshots/1.png?raw=true)
+
+![Alt text](/../screenshots/screenshots/2.png?raw=true)
+
+![Alt text](/../screenshots/screenshots/3.png?raw=true)
+
+![Alt text](/../screenshots/screenshots/4.png?raw=true)
+
+![Alt text](/../screenshots/screenshots/5.png?raw=true)
