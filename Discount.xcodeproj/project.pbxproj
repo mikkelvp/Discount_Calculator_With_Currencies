@@ -16,23 +16,12 @@
 		927B55621A96871500BEBD8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927B55611A96871500BEBD8E /* ViewController.m */; };
 		927B55671A96871500BEBD8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927B55661A96871500BEBD8E /* Images.xcassets */; };
 		927B556A1A96871500BEBD8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927B55681A96871500BEBD8E /* LaunchScreen.xib */; };
-		927B55761A96871500BEBD8E /* DiscountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 927B55751A96871500BEBD8E /* DiscountTests.m */; };
 		927B55851A96923D00BEBD8E /* DisplayChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927B55841A96923D00BEBD8E /* DisplayChartViewController.m */; };
 		92A4D3D21AD632C600A3426C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A4D3D11AD632C600A3426C /* Main.storyboard */; };
 		92A4D3D51AD8D12100A3426C /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A4D3D41AD8D12100A3426C /* Settings.m */; };
 		92C689711AA39AE20005718A /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C689701AA39AE20005718A /* ChartView.m */; };
 		92D287041AD5C16B00ED2860 /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D287031AD5C16B00ED2860 /* CurrencyViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		927B55701A96871500BEBD8E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 927B554E1A96871500BEBD8E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 927B55551A96871500BEBD8E;
-			remoteInfo = Discount;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		92042FF71A96B24E0056BAC2 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
@@ -52,9 +41,6 @@
 		927B55611A96871500BEBD8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		927B55661A96871500BEBD8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		927B55691A96871500BEBD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		927B556F1A96871500BEBD8E /* DiscountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		927B55741A96871500BEBD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		927B55751A96871500BEBD8E /* DiscountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscountTests.m; sourceTree = "<group>"; };
 		927B55831A96923D00BEBD8E /* DisplayChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayChartViewController.h; sourceTree = "<group>"; };
 		927B55841A96923D00BEBD8E /* DisplayChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayChartViewController.m; sourceTree = "<group>"; };
 		92A4D3D11AD632C600A3426C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -74,13 +60,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		927B556C1A96871500BEBD8E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				927B55581A96871500BEBD8E /* Discount */,
-				927B55721A96871500BEBD8E /* DiscountTests */,
 				927B55571A96871500BEBD8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				927B55561A96871500BEBD8E /* Discount.app */,
-				927B556F1A96871500BEBD8E /* DiscountTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,23 +119,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		927B55721A96871500BEBD8E /* DiscountTests */ = {
-			isa = PBXGroup;
-			children = (
-				927B55751A96871500BEBD8E /* DiscountTests.m */,
-				927B55731A96871500BEBD8E /* Supporting Files */,
-			);
-			path = DiscountTests;
-			sourceTree = "<group>";
-		};
-		927B55731A96871500BEBD8E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				927B55741A96871500BEBD8E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,24 +139,6 @@
 			productReference = 927B55561A96871500BEBD8E /* Discount.app */;
 			productType = "com.apple.product-type.application";
 		};
-		927B556E1A96871500BEBD8E /* DiscountTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 927B557C1A96871500BEBD8E /* Build configuration list for PBXNativeTarget "DiscountTests" */;
-			buildPhases = (
-				927B556B1A96871500BEBD8E /* Sources */,
-				927B556C1A96871500BEBD8E /* Frameworks */,
-				927B556D1A96871500BEBD8E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				927B55711A96871500BEBD8E /* PBXTargetDependency */,
-			);
-			name = DiscountTests;
-			productName = DiscountTests;
-			productReference = 927B556F1A96871500BEBD8E /* DiscountTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,10 +151,6 @@
 					927B55551A96871500BEBD8E = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = B4AKR8WPZG;
-					};
-					927B556E1A96871500BEBD8E = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 927B55551A96871500BEBD8E;
 					};
 				};
 			};
@@ -230,7 +168,6 @@
 			projectRoot = "";
 			targets = (
 				927B55551A96871500BEBD8E /* Discount */,
-				927B556E1A96871500BEBD8E /* DiscountTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +180,6 @@
 				927B556A1A96871500BEBD8E /* LaunchScreen.xib in Resources */,
 				927B55671A96871500BEBD8E /* Images.xcassets in Resources */,
 				92A4D3D21AD632C600A3426C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		927B556D1A96871500BEBD8E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,23 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		927B556B1A96871500BEBD8E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				927B55761A96871500BEBD8E /* DiscountTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		927B55711A96871500BEBD8E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 927B55551A96871500BEBD8E /* Discount */;
-			targetProxy = 927B55701A96871500BEBD8E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		927B55681A96871500BEBD8E /* LaunchScreen.xib */ = {
@@ -406,40 +320,6 @@
 			};
 			name = Release;
 		};
-		927B557D1A96871500BEBD8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DiscountTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discount.app/Discount";
-			};
-			name = Debug;
-		};
-		927B557E1A96871500BEBD8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DiscountTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discount.app/Discount";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -457,15 +337,6 @@
 			buildConfigurations = (
 				927B557A1A96871500BEBD8E /* Debug */,
 				927B557B1A96871500BEBD8E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		927B557C1A96871500BEBD8E /* Build configuration list for PBXNativeTarget "DiscountTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				927B557D1A96871500BEBD8E /* Debug */,
-				927B557E1A96871500BEBD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
